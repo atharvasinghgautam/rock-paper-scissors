@@ -1,5 +1,5 @@
 import random
-options=["rock,paper,scissors"]
+options=["rock","paper","scissors"]
 user_choice=input("Choose from rock,paper,scissors: ")
 computer_choice=random.choice(options)
 print("User choice: ",user_choice)
@@ -13,4 +13,5 @@ elif(user_choice=="scissors" and computer_choice=="paper"):
 elif(user_choice=="rock" and computer_choice=="scissors"):
     print("You win! Yay!")
 else:
+
     print("You loose! Try again!")
